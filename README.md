@@ -6,27 +6,38 @@ The goal is to demonstrate clear understanding of
 
 Focus on:
 - What the web enables
-- Answers: A web is the collection of files. 
+
+- Answers: A web is the collection of files.
+
 - Why it exists.
-- Answer : web exist to solve many problems 
+
+- Answer : web exist to solve many problems,
+by using internet and doing many more things.
+
 - How it differs from local software
 - Answer :easy access from every where
-- no manual updates
-- Good for collaboration, multiple users at once. 
+no manual updates
+Good for collaboration, multiple users at once. 
 
 ---
 
 ## Client–Server Architecture
 Explain:
 - What a client is
-- Answer : A client is whatever that can access website 
+- Answer : A client is whatever that can access website
+
 - What a server is
+
 - Answer : A server is a Computer that store Html
+
 - What responsibilities each has
+
 - Answer :Client responsibilities :User Interface UI,
 Sending request, basic validation, Receiving response, handling user
-Action, Rendering data
+Action, Rendering data.
+
 Include real-life examples.
+
 Answer :like blender kitchen Utensils :Blender is the Client
 Tomatoes and onions while the blender engine is the server which store the power
 That the blender use, while Data is the grinded tomatoes. 
@@ -63,6 +74,7 @@ Example:
 Client validates payment amount.
 Problem:
 Users can modify the code and cheat.
+
 👉 Rule:
 Never trust the client.
 Hard-to-Maintain Code 😖
@@ -79,7 +91,7 @@ Client does heavy processing meant for server.
 Problem:
 App slows down on weak devices
 Hard to support many users
-4. Difficult Debugging 🐞
+Difficult Debugging 🐞
 Example:
 UI logic mixed with database logic.
 Problem:
@@ -87,14 +99,16 @@ You don’t know:
 Is the bug from frontend?
 Or backend?
 Or database?
-5. Bad User Experience 😤
+
+ Bad User Experience 😤
 Example:
 Server controls UI behavior.
 Problem:
 Slow page loads
 Unnecessary reloads
 Laggy interaction
-6. Testing Becomes a Nightmare 🧪
+
+ Testing Becomes a Nightmare 🧪
 Example:
 Business logic inside UI code.
 Problem:
@@ -131,6 +145,7 @@ Reflect honestly:
 
 ## Diagram
 A diagram explaining client–server interaction is included in the `diagram/` folder.
+
 🍅🍅🍅
      ┌───────────┐
      │ Blender   │
