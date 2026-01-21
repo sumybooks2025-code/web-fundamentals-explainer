@@ -131,3 +131,30 @@ Reflect honestly:
 
 ## Diagram
 A diagram explaining client–server interaction is included in the `diagram/` folder.
+🍅🍅🍅
+     ┌───────────┐
+     │ Blender   │
+     │   Cup     │
+     │ (Client)  │
+     └─────┬─────┘
+           │ 1. Send request:
+           │    "Grind tomatoes"
+           ▼
+     ┌───────────────┐
+     │ Blender       │
+     │ Engine /      │
+     │ Power Saver   │
+     │ (Server)      │
+     └─────┬─────────┘
+           │ 2. Process request
+           │    (use stored power)
+           ▼
+     ⚡ Spins motor & blade ⚡
+           │
+           │ 3. Send result
+           ▼
+     ┌───────────┐
+     │ Smooth    │
+     │ Tomato    │
+     │ Paste     │
+     └───────────┘
